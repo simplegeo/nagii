@@ -1,0 +1,12 @@
+Source: nagii
+Section: python
+Priority: extra
+Maintainer: Jeremy Grosser <jeremy@synack.me>
+Build-Depends: cdbs, debhelper (>= 7), python-support, python-setuptools
+Standards-Version: 3.8.3
+Homepage: https://github.com/thekad/nagii
+
+Package: python-nagii
+Architecture: any
+Depends: ${python:Depends}, python-mako
+Description: Some python lib to model nagios objects
